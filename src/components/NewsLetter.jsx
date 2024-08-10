@@ -12,13 +12,13 @@ const NewsLetter = () => {
         </div>
 
         <div className="my-4">
-          <div className="md:flex flex-col sm:flex-row  justify-between   w-full">
+          <div className="md:flex flex-col sm:flex-row     w-full">
             <input
-              className="w-[250px] rounded-md my-2 py-[10px] px-2 mx-2"
+              className="w-[250px] rounded-md my-2 py-[10px] px-2 sm:mx-2 mr-2"
               placeholder="Enter your email"
               type="email"
             />
-            <button className=" bg-[#00df9a] my-3 w-[150px]  rounded-md py-[10px] text-black font-bold hover:bg-gray-600 hover:text-[#00df9a] ">
+            <button className=" bg-[#00df9a] my-3 w-[150px]   rounded-md py-[10px] text-black font-bold hover:bg-gray-600 hover:text-[#00df9a] ">
               Notify Me
             </button>
           </div>
